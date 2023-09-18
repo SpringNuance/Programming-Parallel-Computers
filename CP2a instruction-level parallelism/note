@@ -1,0 +1,12 @@
+        /*
+        std::vector<double> sumRowI(4, 0.0);
+        for(int k = 0; k < nx/4; k++){
+            for(int m = 0; m < 4; m++){
+                sumRowI[m] += data[4 * k + m + i*nx];
+            }
+        }
+        double sumRowi =  sumRowI[0] + sumRowI[1] + sumRowI[2] + sumRowI[3];
+        for(int k = 1; k <= remainder; k++){
+            sumRowi += data[4 * k + i*nx];
+        }
+        */
